@@ -1,4 +1,4 @@
-# Mini-grep
+# Minigrep
 This is my first attempt at programming in Rust!
 
 ## What does it do?
