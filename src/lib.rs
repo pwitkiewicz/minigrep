@@ -68,7 +68,7 @@ mod test {
     use super::*;
 
     #[test]
-    fn search_case_sensitive() {
+    fn case_sensitive_search() {
         let query = "duct";
         let contents = "\
 Rust:
@@ -80,7 +80,7 @@ Duct tape.";
     }
 
     #[test]
-    fn search_case_insensitive() {
+    fn case_insensitive_search() {
         let query = "RUsT";
         let contents = "\
 Rust:
